@@ -1,0 +1,46 @@
+/*
+** Main CSS
+*
+** WPFY Scroller
+*/
+
+.topbutton {
+  position: fixed;
+  right: 10px;
+  padding: 15px;
+  bottom: 10px;
+  border-radius: 50%;
+  display: none;
+  z-index: 999;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media all and (min-width: 769px) {
+  .topbutton {
+    right: 100px;
+    bottom: 139px;
+  }
+}
+
+.topbutton::hover {
+  text-decoration: underline;
+}
+
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.top-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
